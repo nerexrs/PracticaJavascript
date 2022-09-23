@@ -12,7 +12,7 @@ function mayorMenor() {
     } else if (valueNum1 < valueNum2) {
         string.innerText = `${valueNum1} es menor que ${valueNum2}`;
     } else if (valueNum1 == valueNum2) {
-        string.innerText = `${valueNum1} es menor que ${valueNum2}`;
+        string.innerText = `${valueNum1} es igual que ${valueNum2}`;
     } 
     else {
         string.innerText = `ingresa un valor valido`;

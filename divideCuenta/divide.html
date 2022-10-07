@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divide la cuenta</title>
+</head>
+<body>
+<section>
+    <form action="">
+        <h1>Divide la cuenta</h1>
+        <label for="Total">Ingresa el total de tu cuenta</label>
+        <input id="total" type="number" />
+        <label for="personas">Ingresa el número de personas</label>
+        <input id="personas" type="number" />
+        <label for="impuestos">Ingresa los impuestos de la cuenta</label>
+        <input id="impuestos" type="number" />
+        <label for="propina">Ingresa la propina de la cuenta (pon 0 si no vas a dar propina)</label>
+        <input id="propina" type="number" />
+
+        <button type="button" onclick="divideCuenta()">calcula el total de tu cuenta</button>
+
+        
+        <p id="cuenta"></p>
+    </form>
+</section>
+
+
+    <script src="./divide.js"></script>
+</body>
+</html>

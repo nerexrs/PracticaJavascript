@@ -11,7 +11,7 @@ function miKm() {
     const kmMi = km + (609.34 * m)
     //conversión de millas
 
-    let opMi = millaV * kmMi
+    let opMi = (millaV * kmMi)/1000
     // operación cambio de milla a km
 
     let totalM = document.getElementById("totalM");
